@@ -4,6 +4,18 @@
 ## Simulated DFIR case study based on a Windows lab image. 
 ## This project documents a structured investigation using incident response and forensic handling principles.
 
+## Skills Demonstrated
+
+- Digital forensic evidence handling and integrity verification (hash validation)
+- Analysis of forensic disk images in a read-only environment
+- Windows artefact analysis (file system metadata, registry, browser history, email artefacts)
+- Deleted file recovery from unallocated space
+- USB device usage inference through operating system artefacts
+- Timeline construction and correlation across multiple artefact sources
+- Application of ACPO principles within an academic DFIR context
+- Clear technical reporting suitable for non-technical stakeholders
+
+
 This repository documents an academic Digital Forensics and Incident Response (DFIR) case study conducted using a Windows workstation disk image. 
 The objective of the investigation was to analyse suspected insider-related data handling activity and demonstrate evidence-led forensic methodology.
 
