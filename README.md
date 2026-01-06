@@ -73,6 +73,21 @@ The investigation followed a structured Digital Forensics and Incident Response 
 
 
 ## Deliverables
-- Investigation notes and evidence table
-- Timeline of key events
-- Final report with conclusions and next actions
+
+- Digital forensic investigation report (PDF) documenting findings and conclusions
+- Selected screenshots of key artefacts (redacted)
+- Timeline illustrating correlation of events
+- Supporting notes outlining analysis steps and observations
+
+
+## Disclaimer
+
+This repository contains an academic Digital Forensics and Incident Response (DFIR) case study based on a simulated scenario. 
+All data, systems, and events are synthetic and non-production.
+The content is intended solely to demonstrate DFIR methodology, evidence handling, and analytical reasoning. 
+It does not represent a real-world allegation, investigation, or legal determination.
+
+## Author
+
+Final-year BEng Cyber Security student  
+Focus areas: Security Operations (SOC), Digital Forensics and Incident Response (DFIR)
