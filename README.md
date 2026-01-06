@@ -2,11 +2,14 @@
 
 ## Overview
 
-This repository documents an academic Digital Forensics and Incident Response (DFIR) case study conducted using a Windows workstation disk image. The objective of the investigation was to analyse suspected insider-related data handling activity and demonstrate evidence-led forensic methodology.
+This repository documents an academic Digital Forensics and Incident Response (DFIR) case study conducted using a Windows workstation disk image. 
+The objective of the investigation was to analyse suspected insider-related data handling activity and demonstrate evidence-led forensic methodology.
 
-The investigation was performed in a controlled lab environment using a single forensic disk image (`.001`). Analysis focused on non-volatile artefacts recorded on the workstation, including file system activity, deleted data recovery, USB connection artefacts, browser history, email artefacts, and timeline correlation.
+The investigation was performed in a controlled lab environment using a single forensic disk image (`.001`). 
+Analysis focused on non-volatile artefacts recorded on the workstation, including file system activity, deleted data recovery, USB connection artefacts, browser history, email artefacts, and timeline correlation.
 
-This case study is intended for learning and portfolio purposes and reflects DFIR practices aligned with professional standards, while remaining explicit about scope and limitations.
+This case study is intended for learning and portfolio purposes and reflects DFIR practices aligned with professional standards, 
+while remaining explicit about scope and limitations.
 
 
 ## Skills Demonstrated
@@ -23,8 +26,11 @@ This case study is intended for learning and portfolio purposes and reflects DFI
 
 
 ## Objective
-- Practise triage, evidence handling, timeline building, and reporting
-- Produce clear findings that could be handed to a SOC lead or IR manager
+
+- Practise structured DFIR triage, evidence handling, and forensic analysis using a workstation disk image
+- Identify and analyse artefacts related to suspected insider activity, including file access, deletion, USB usage, browser activity, and email communications
+- Construct and correlate a timeline of key events to support evidence-led conclusions
+- Produce clear, professional findings suitable for handover to a SOC analyst or incident response team
 
 ## Dataset
 - Windows lab image (synthetic / non-production)
