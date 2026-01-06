@@ -33,28 +33,44 @@ while remaining explicit about scope and limitations.
 - Produce clear, professional findings suitable for handover to a SOC analyst or incident response team
 
 ## Dataset
-- Windows lab image (synthetic / non-production)
-- No real personal data
 
-
-
-
-
-
-
-
+- Windows workstation disk image (synthetic, non-production)
+- Single forensic disk image provided in segmented format (`.001`)
+- Dataset contains no real personal or organisational data
 
 
 ## Environment & Tools
-- Host: Virtual lab environment
-- Tools: Autopsy, FTK Imager, SANS SIFT, Windows utilities
+
+**Environment**
+- Virtualised lab environment
+- Analysis performed on a non-production Windows workstation disk image
+- All forensic analysis conducted in a controlled, read-only environment
+
+**Tools**
+- Autopsy – forensic artefact analysis and timeline correlation
+- Exterro FTK Imager – forensic image verification and integrity checking
+- SANS SIFT / Linux forensic utilities – independent hash verification and supporting analysis
+- Native Windows utilities – contextual artefact review
 
 ## Methodology
-1. Scope and assumptions
-2. Evidence acquisition and integrity (hashing)
-3. Triage and artefact collection
-4. Timeline analysis
-5. Findings and recommendations
+
+The investigation followed a structured Digital Forensics and Incident Response (DFIR) workflow aligned with recognised best practices and ACPO principles.
+
+1. **Scope and Assumptions**  
+   Defined the scope of analysis based on the provided forensic disk image and identified relevant artefact categories related to suspected insider activity.
+
+2. **Evidence Acquisition and Integrity Verification**  
+   Verified the integrity of the forensic disk image using cryptographic hashing prior to analysis. All examination was conducted in a read-only environment.
+
+3. **Triage and Artefact Collection**  
+   Identified and extracted relevant artefacts, including file system metadata, deleted files, USB connection artefacts, browser history, and email artefacts.
+
+4. **Timeline Analysis and Correlation**  
+   Correlated timestamps across multiple artefact sources to reconstruct a sequence of events and identify relationships between user actions.
+
+5. **Findings and Reporting**  
+   Interpreted artefacts in context and documented findings in a clear, evidence-led manner suitable for handover to a SOC or incident response team.
+
 
 ## Deliverables
 - Investigation notes and evidence table
