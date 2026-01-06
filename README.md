@@ -1,8 +1,13 @@
 # Academic DFIR Incident Response Case Study (Windows Lab)
 
 ## Overview
-## Simulated DFIR case study based on a Windows lab image. 
-## This project documents a structured investigation using incident response and forensic handling principles.
+
+This repository documents an academic Digital Forensics and Incident Response (DFIR) case study conducted using a Windows workstation disk image. The objective of the investigation was to analyse suspected insider-related data handling activity and demonstrate evidence-led forensic methodology.
+
+The investigation was performed in a controlled lab environment using a single forensic disk image (`.001`). Analysis focused on non-volatile artefacts recorded on the workstation, including file system activity, deleted data recovery, USB connection artefacts, browser history, email artefacts, and timeline correlation.
+
+This case study is intended for learning and portfolio purposes and reflects DFIR practices aligned with professional standards, while remaining explicit about scope and limitations.
+
 
 ## Skills Demonstrated
 
@@ -15,14 +20,6 @@
 - Application of ACPO principles within an academic DFIR context
 - Clear technical reporting suitable for non-technical stakeholders
 
-
-This repository documents an academic Digital Forensics and Incident Response (DFIR) case study conducted using a Windows workstation disk image. 
-The objective of the investigation was to analyse suspected insider-related data handling activity and demonstrate evidence-led forensic methodology.
-
-The investigation was performed in a controlled lab environment using a single forensic disk image (`.001`). Analysis focused on non-volatile artefacts recorded on the workstation, 
-including file system activity, deleted data recovery, USB connection artefacts, browser history, email artefacts, and timeline correlation.
-
-This case study is intended for learning and portfolio purposes and reflects DFIR practices aligned with professional standards, while remaining explicit about scope and limitations.
 
 
 ## Objective
